@@ -37,7 +37,34 @@ nav {
 .topnav .icon {
   display: none;
 }
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bgtop {
+  background-image: url(../images/bgtop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.text {
+  overflow: hidden;
+}
+.text img {
+  width: 100%;
+  padding-top: 286px;
+  padding-left: 200px;
+  padding-right: 234px;
+}
 
+.mouse {
+  padding-top: 360px;
+  padding-bottom: 20px;
+  padding-left: 907px;
+  padding-right: 907px;
+}
 @media screen and (max-width: 720px) {
   .topnav a {
     display: none;
